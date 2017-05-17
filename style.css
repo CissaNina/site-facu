@@ -11,10 +11,15 @@ body{
 	height:50px;
 	
  }
+ header img{
+ 	display: flex;
+ 	transition: opacity 2s, transform 1s;
+ }
+ header img:hover{
 
- .text1{ 
+ 	transform: scale(1.2);
+ }
 
-}
 h1{
 	margin: 50px;
 	text-align: center;
@@ -52,5 +57,11 @@ footer img{
 	height: 100%;
 
 }
+ul li{
+ 	display: flex;
+ 	transition: opacity 2s, transform 1s;
+ }
+ ul li:hover{
 
-}
+ 	transform: scale(1.5);
+ }
